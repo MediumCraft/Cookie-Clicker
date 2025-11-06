@@ -1,0 +1,1 @@
+release/main.js
