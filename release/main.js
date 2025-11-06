@@ -1237,7 +1237,7 @@ Game.https=!App?((location.protocol!='https:')?false:true):true;
 Game.SaveTo='CookieClickerGame';
 if (Game.beta) Game.SaveTo='CookieClickerGameBeta';
 if (App && new URL(window.location.href).searchParams.get('modless')) Game.modless=1;
-Game.local=(!location.hostname || location.hostname==='localhost' || location.hostname==='127.0.0.1');
+Game.local=(!location.hostname || location.hostname==='localhost' || location.hostname==='127.0.0.1' || location.hostname.endsWith('github.io'));
 if (App) Game.local=true;
 Game.resPath='';
 if (!App && !Game.local && window.location.href.indexOf('orteil.dashnet.org')!=-1)
