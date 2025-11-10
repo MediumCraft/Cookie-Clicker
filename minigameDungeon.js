@@ -1,0 +1,1 @@
+./release/minigameDungeon.js
